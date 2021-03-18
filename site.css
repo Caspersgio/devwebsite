@@ -10,6 +10,7 @@
 *{
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 html {
@@ -23,11 +24,8 @@ html {
 
 /* 2. header */ 
 header {
-    background-color: CDE7B0;
     padding-top: 26px;
     margin-bottom: 20px;
-    border: red;
-    border-style: dotted;
     min-height: 75px;
     color: rgb(204, 204, 204);
     position: relative;
@@ -48,12 +46,9 @@ header img{
 /* 3. navbar 1 + 2*/
 
 nav {
-    background-color: rgb(73, 67, 67);
     padding: 2px 2px 2px 2px;
-    margin: 1.5em 1.5em 1.5em 1.5em;
+    margin: 6rem 3rem 6rem 3rem;
     font-size: 2rem;
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 24px; font-style: normal;
-    border-style: dotted;
     text-align: center;
 }
 
@@ -79,16 +74,12 @@ nav a:link
 /* 4.main */ 
 
 main {
-    background-color: rgb(73, 67, 67);
     min-height: 400px;
-    border: rgb(7, 7, 7);
-    border-style: dotted;
-    color: rgb(204, 204, 204);
     padding: 10px;
 }
 
 main h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 main p {
@@ -101,27 +92,21 @@ aside {
     float: right;
     min-width: auto;
     min-height: auto;
-    background-color: rgb(73, 67, 67);
-    border-style: dotted;
-    margin: 0 ;
+    margin: 10px;
 }
+
 
 aside img {
     height: 400px;
-    border-style: dotted;
-    border: black;
+    margin-top: 0px;
 }
 
 
 /* footer */
 footer {
-    background-color: rgb(73, 67, 67);
     padding: 2px 2px 2px 2px;
     margin: 0.5em 0.5em 0.5em 0.5em;
     font-size: 3em;
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 24px; font-style: normal;
-    border: rgb(0, 0, 0);
-    border-style: dotted;
 }
 
 

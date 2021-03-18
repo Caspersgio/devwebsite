@@ -1,0 +1,129 @@
+/* Table of contents 
+1. all
+2. header
+3. navbar 1 +2
+4. main
+5. aside
+6. components */
+
+/* 1.all */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+.body {
+    background-color: rgb(73, 67, 67);
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-style: normal;
+}
+
+/* 2. header */ 
+header {
+    background-color: CDE7B0;
+    padding-top: 26px;
+    margin-bottom: 20px;
+    border: red;
+    border-style: dotted;
+    min-height: 75px;
+    color: rgb(204, 204, 204);
+    position: relative;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+header img{
+    position: absolute;
+    min-height: auto;
+    top: 1px; bottom: 1px; left: 1px;
+    margin-right: 10px;
+}
+
+/* 3. navbar 1 + 2*/
+
+nav {
+    background-color: rgb(73, 67, 67);
+    padding: 2px 2px 2px 2px;
+    margin: 1.5em 1.5em 1.5em 1.5em;
+    font-size: 2rem;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 24px; font-style: normal;
+    border-style: dotted;
+    text-align: center;
+}
+
+nav> ul {
+    display:inline;
+    padding:none;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 100px;
+}
+
+nav a:visited,
+nav a:link
+{
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+}
+
+
+/* 4.main */ 
+
+main {
+    background-color: rgb(73, 67, 67);
+    min-height: 400px;
+    border: rgb(7, 7, 7);
+    border-style: dotted;
+    color: rgb(204, 204, 204);
+    padding: 10px;
+}
+
+main h1 {
+    font-size: 2.5rem;
+}
+
+main p {
+    width: 75%;
+    font-size: 1rem;
+}
+/* 5. aside */ 
+
+aside {
+    float: right;
+    min-width: auto;
+    min-height: auto;
+    background-color: rgb(73, 67, 67);
+    border-style: dotted;
+    margin: 0 ;
+}
+
+aside img {
+    height: 400px;
+    border-style: dotted;
+    border: black;
+}
+
+
+/* footer */
+footer {
+    background-color: rgb(73, 67, 67);
+    padding: 2px 2px 2px 2px;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    font-size: 3em;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 24px; font-style: normal;
+    border: rgb(0, 0, 0);
+    border-style: dotted;
+}
+
+
+@media screen and (min-width: 600px) {
+  }

@@ -4,30 +4,34 @@
 3. navbar 1 +2
 4. main
 5. aside
-6. components */
+6. components
+7. over mij pagina */
 
 /* 1.all */
 *{
     margin: 0;
     padding: 0;
-    color: white;
+  
 }
 
 html {
     font-size: 16px;
+    color: white;
 }
 
 .body {
     background-color: rgb(73, 67, 67);
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-style: normal;
+    
 }
+
 
 /* 2. header */ 
 header {
     padding-top: 26px;
     margin-bottom: 20px;
     min-height: 75px;
-    color: rgb(204, 204, 204);
+    color: rgb(252, 252, 252);
     position: relative;
 }
 
@@ -109,6 +113,40 @@ footer {
     font-size: 3em;
 }
 
+/* over mij pagina */
 
-@media screen and (min-width: 600px) {
-  }
+.headerovermij {
+    color: black;
+}
+
+.navovermij a:visited,
+.navovermij a:link
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+.bodyovermij {
+    background-image: url(../images/background-overmij.jpg);
+    background-repeat: round;
+    color: black;
+}
+
+.mainovermij {
+    text-align: center;
+    width: 50%;
+  margin: auto; 
+  max-height: 100px;
+  min-height: 250px;
+}
+
+.mainovermij p {
+    width: 100%;
+}
+
+
+.sectionovermij h2 {
+    text-align: center;
+}
+
